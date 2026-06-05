@@ -54,6 +54,8 @@ export async function apiRequest<T>(path: string, options: ApiRequestOptions = {
   const requestHeaders = new Headers(headers);
   const isFormData = typeof FormData !== "undefined" && body instanceof FormData;
 
+  requestHeaders.set("ngrok-skip-browser-warning", "true");
+
   if (body && !isFormData && !requestHeaders.has("Content-Type")) {
     requestHeaders.set("Content-Type", "application/json");
   }
