@@ -88,3 +88,12 @@ This project was built to demonstrate:
 - AI-assisted financial analysis using a structured LLM service flow;
 - clean React/TypeScript frontend integration with a central API layer;
 - user-focused product thinking for finance and operations teams.
+
+## Demo Account
+
+You can explore the application using the demo account below:
+
+**Email:** `demo@example.com`
+**Password:** `demo12345`
+
+This account is provided for testing and preview purposes only. It allows users to log in and try the main features of the application without creating a new account.
