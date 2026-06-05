@@ -4,8 +4,16 @@ import os
 load_dotenv()
 
 class Config:
-    ORIGINS: list[str] = ["localhost", "127.0.0.1", "13.48.42.62", "personal-finance-assistant-gamma.vercel.app"]
-    ALLOWED_HOSTS: list[str] = ["http://localhost:3000", "http://127.0.0.1", "http://13.48.42.62", "https://personal-finance-assistant-gamma.vercel.app"]
+    ORIGINS: list[str] = [
+        "localhost",
+        "127.0.0.1",
+        "13.48.42.62",
+        ".ngrok-free.app",
+    ]
+    ALLOWED_HOSTS: list[str] = [
+        "http://localhost:3000",
+        "https://personal-finance-assistant-gamma.vercel.app",
+    ]
     PROJECT_NAME: str = "personal-finance-assistant-django"
     VERSION: str = "v1"
     DEBUG: bool = os.getenv("DEBUG", False)
