@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #f8f9fa;
+  --foreground: #191c1d;
+  --surface: #f8f9fa;
+  --surface-bright: #f8f9fa;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f3f4f5;
+  --surface-container: #edeeef;
+  --surface-container-high: #e7e8e9;
+  --surface-container-highest: #e1e3e4;
+  --surface-variant: #e1e3e4;
+  --on-surface: #191c1d;
+  --on-surface-variant: #3d4a42;
+  --primary: #006948;
+  --primary-container: #00855d;
+  --on-primary: #ffffff;
+  --on-primary-container: #f5fff7;
+  --primary-fixed-dim: #68dba9;
+  --secondary-container: #d9dff5;
+  --on-secondary-fixed: #141b2b;
+  --tertiary: #9b3e3b;
+  --tertiary-fixed: #ffdad7;
+  --on-tertiary-fixed-variant: #7f2928;
+  --error: #ba1a1a;
+  --error-container: #ffdad6;
+  --on-error-container: #93000a;
+  --outline: #6d7a72;
+  --outline-variant: #bccac0;
+  --inverse-surface: #2e3132;
+  --inverse-on-surface: #f0f1f2;
+  --sidebar-width: 244px;
+  --container-max-width: 1280px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-surface-variant: var(--surface-variant);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-primary: var(--primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary: var(--on-primary);
+  --color-on-primary-container: var(--on-primary-container);
+  --color-primary-fixed-dim: var(--primary-fixed-dim);
+  --color-secondary-container: var(--secondary-container);
+  --color-on-secondary-fixed: var(--on-secondary-fixed);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-fixed: var(--tertiary-fixed);
+  --color-on-tertiary-fixed-variant: var(--on-tertiary-fixed-variant);
+  --color-error: var(--error);
+  --color-error-container: var(--error-container);
+  --color-on-error-container: var(--on-error-container);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-on-surface: var(--inverse-on-surface);
+  --font-sans: "Mona Sans", Inter, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono);
+  --spacing-sidebar-width: var(--sidebar-width);
+  --spacing-container-max-width: var(--container-max-width);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Mona Sans", Inter, system-ui, sans-serif;
+  font-size: 12.5px;
+  line-height: 18px;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+button,
+a,
+input,
+select {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface-container-highest);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--outline-variant);
+}
+
+.finance-card {
+  background: var(--surface-container-lowest);
+  border: 1px solid var(--outline-variant);
+  border-radius: 0.625rem;
+}
+
+.display-title {
+  color: var(--on-surface);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 38px;
+}
+
+.headline-lg {
+  color: var(--on-surface);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+
+.headline-md {
+  color: var(--on-surface);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.label-md {
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 14px;
+}
+
+.numeral-lg {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.numeral-md {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+@keyframes upload-progress {
+  0% {
+    margin-left: 0;
+    width: 0;
+  }
+  50% {
+    margin-left: 35%;
+    width: 30%;
+  }
+  100% {
+    margin-left: 100%;
+    width: 0;
+  }
+}

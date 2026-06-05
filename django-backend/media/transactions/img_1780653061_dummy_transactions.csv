@@ -1,0 +1,9 @@
+transaction_date,type,amount,currency,category,merchant,description,external_id
+2026-06-01,EXPENSE,2500,PKR,Food,KFC,Dinner,txn_001
+2026-06-02,INCOME,150000,PKR,Salary,Revonix,Monthly salary,txn_002
+2026-06-03,EXPENSE,8200,PKR,Groceries,Imtiaz Super Market,Weekly groceries,txn_003
+2026-06-04,EXPENSE,3500,PKR,Transport,Careem,Ride to office,txn_004
+2026-06-05,EXPENSE,1200,PKR,Coffee,Gloria Jeans,Coffee meeting,txn_005
+2026-06-06,EXPENSE,999,PKR,Subscription,Netflix,Monthly subscription,txn_006
+2026-06-07,TRANSFER,20000,PKR,Transfer,Bank Transfer,Transfer to savings account,txn_007
+2026-06-08,EXPENSE,4500,PKR,Utilities,K-Electric,Electricity bill,txn_008

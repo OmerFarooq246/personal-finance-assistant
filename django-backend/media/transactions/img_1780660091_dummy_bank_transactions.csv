@@ -1,0 +1,21 @@
+Date,Description,Type,Amount_PKR,Balance_PKR
+2026-05-01,Salary Credit,Credit,185000,185000
+2026-05-02,Grocery Store Purchase,Debit,8450,176550
+2026-05-03,Netflix Subscription,Debit,1100,175450
+2026-05-04,Freelance Payment,Credit,42000,217450
+2026-05-05,Fuel Station,Debit,6200,211250
+2026-05-06,Utility Bill - Electricity,Debit,14800,196450
+2026-05-07,ATM Cash Withdrawal,Debit,20000,176450
+2026-05-08,Daraz Refund,Credit,3500,179950
+2026-05-09,Coffee Shop,Debit,950,179000
+2026-05-10,Investment Dividend,Credit,12750,191750
+2026-05-11,Internet Bill,Debit,3200,188550
+2026-05-12,Food Delivery,Debit,2150,186400
+2026-05-13,Transfer from Savings,Credit,25000,211400
+2026-05-14,Mobile Wallet Transfer,Debit,7500,203900
+2026-05-15,Gym Membership,Debit,4500,199400
+2026-05-16,Bonus Payment,Credit,30000,229400
+2026-05-17,Pharmacy Purchase,Debit,1850,227550
+2026-05-18,Ride Hailing Service,Debit,780,226770
+2026-05-19,Client Project Payment,Credit,65000,291770
+2026-05-20,Restaurant Dinner,Debit,5900,285870
