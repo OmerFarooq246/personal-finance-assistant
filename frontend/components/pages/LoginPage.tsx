@@ -184,8 +184,9 @@ export function LoginPage({ onSuccess }: LoginPageProps) {
               <span>{loading ? (isSignup ? "Creating account..." : "Signing in...") : isSignup ? "Create Account" : "Sign In"}</span>
             </button>
 
-            <p className="mt-4 text-center text-sm text-on-surface-variant">
-              {isSignup ? "Your account will be ready right away." : "Use your finance account credentials."}
+            <p className="mt-4 text-right text-sm text-on-surface-variant">
+              Demo account: <span className="font-semibold text-on-surface">john@email.com</span> /{" "}
+              <span className="font-semibold text-on-surface">password</span>
             </p>
           </form>
         </div>
