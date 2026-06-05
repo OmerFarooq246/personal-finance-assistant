@@ -8,11 +8,12 @@ class Config:
         "localhost",
         "127.0.0.1",
         "13.48.42.62",
-        ".ngrok-free.app",
+        "luculently-unevincible-errol.ngrok-free.dev",
     ]
     ALLOWED_HOSTS: list[str] = [
         "http://localhost:3000",
         "https://personal-finance-assistant-gamma.vercel.app",
+        "https://luculently-unevincible-errol.ngrok-free.dev"
     ]
     PROJECT_NAME: str = "personal-finance-assistant-django"
     VERSION: str = "v1"
