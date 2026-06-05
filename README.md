@@ -57,7 +57,7 @@ Backend:
 cd django-backend
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt | pip freeze > requirements.txt
 cp .env.example .env
 python manage.py migrate
 python manage.py runserver 8000
