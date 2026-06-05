@@ -6,7 +6,7 @@ load_dotenv()
 class Config:
     ORIGINS: list[str] = ["localhost", "127.0.0.1"]
     ALLOWED_HOSTS: list[str] = ["http://localhost:3000", "http://127.0.0.1"]
-    PROJECT_NAME: str = os.getenv("PROJECT_NAME", "personal-finance-assistant-django")
+    PROJECT_NAME: str = "personal-finance-assistant-django"
     VERSION: str = "v1"
     DEBUG: bool = os.getenv("DEBUG", False)
 
