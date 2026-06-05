@@ -184,10 +184,11 @@ export function LoginPage({ onSuccess }: LoginPageProps) {
               <span>{loading ? (isSignup ? "Creating account..." : "Signing in...") : isSignup ? "Create Account" : "Sign In"}</span>
             </button>
 
-            <p className="mt-4 text-right text-sm text-on-surface-variant">
-              Demo account: <span className="font-semibold text-on-surface">john@email.com</span> /{" "}
-              <span className="font-semibold text-on-surface">password</span>
-            </p>
+            <div className="mt-5 text-[11px] text-right text-on-surface-variant">
+              <h1 className="">Demo account:</h1>
+              <p>Email: <span className="font-semibold text-on-surface">john@email.com</span></p>
+              <p>Password: <span className="font-semibold text-on-surface">password</span></p>
+            </div>
           </form>
         </div>
       </section>
